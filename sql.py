@@ -52,6 +52,3 @@ def get_keyword(userid):
     for row in rows:
         return str(row[0]).lower()
     return "null"
-    
-
-print(get_userid("harsh","123456"))
